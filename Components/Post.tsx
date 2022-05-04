@@ -4,7 +4,7 @@ type Props = {
   post: { userId: number; id: number; title: string; body: string };
 };
 
-const Post = ({ post }: Props) => {
+export default function Post({ post }: Props) {
   return (
     <div>
       <span>{post.id}</span>
@@ -17,6 +17,4 @@ const Post = ({ post }: Props) => {
       </Link>
     </div>
   );
-};
-
-export default Post;
+}

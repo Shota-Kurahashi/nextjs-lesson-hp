@@ -5,7 +5,7 @@ const Home: NextPage = () => {
   return (
     <div className="">
       <Layout title={"home"}>
-        <p className="text-4xl">Welcome to Nextjs</p>
+        <p className="text-4xl">Welcome to Next.js</p>
       </Layout>
     </div>
   );
